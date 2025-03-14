@@ -3,6 +3,8 @@ import tensorflow as tf
 from PIL import Image, UnidentifiedImageError
 import io
 import numpy as np
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 app = FastAPI()
 
